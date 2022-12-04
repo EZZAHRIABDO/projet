@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>GEOPORTAIL</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+	<link rel="stylesheet" href="assets/css/leadmark.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Carte</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">A propos de nous</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+
+            <h1 class="title">GEOPORTAIL</h1>
+            <h1 class="subtitle">Les Gares du MAROC</h1>
+        </div>
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z" />
+            </svg>
+        </div>
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header>
+    <!-- End Of Page Header -->
+    <!-- Accueil Section -->
+    <section id="service" class="section pt-0">
+        <div class="container">
+            <h6 class="section-title text-center">Accueil</h6>
+
+
+
+            <!-- About Section -->
+            <section class="section" id="Accueil">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                            <h6 class="section-title mb-0">Historique</h6>
+                            <p>La construction du réseau des chemins de fer du Maroc remonte au début du 20ème siècle. Les premières lignes construites à voie de 0,60m datent de 1916, et ce n’est qu’en 1923 que la construction des voies à écartement dit « normal » a été confiée à trois compagnies concessionnaires privées :</p>
+                            <img src="assets/imgs/carte.png" alt="" class="w-100 mt-3 shadow-sm">
+                        </div>
+                        <div class="col-md-6 pl-md-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/imgs/1.jpg" alt="" class="w-100 shadow-sm">
+                                </div>
+                                <div class="col-6">
+                                    <img src="assets/imgs/asilah.jpg" alt="" class="w-100 shadow-sm">
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <p>-> La Compagnie des Chemins de Fer du Maroc (CFM) qui exploitait la ligne du Sud à partir de Sidi Kacem et la ligne Fès-Oujda .</p>
+                                    <p>-> La Compagnie des Chemins de Fer du Maroc Oriental (CMO) qui exploitait la ligne Bouarfa-Oujda.</p>
+                                    <p>-> La compagnie Franco-Espagnole du Chemin de fer de Tanger-Fès (TF) qui exploitait l’axe Tanger-Fès.</p>
+
+                                    <p>Ces compagnies concessionnaires se partagèrent le trafic ferroviaire, en exploitant chacune la partie du réseau qui lui était concédée, jusqu’en 1963, lorsque le Gouvernement Marocain a décidé le rachat des concessions et la création de l’Office National des Chemins de Fer (ONCF).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End OF About Section -->
+
+
+
+
+
+        </div>
+    </section>
+    <!-- End OF Accueil Section -->
+
+
+    <!-- Carte section  -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h6 class="section-title text-center">Géoportail</h6>
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <base target="_top">
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Quick Start - Leaflet</title>
+                <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+                <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+                <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+                <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+
+
+                <!--Mapbox-->
+
+                <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+                <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+                      rel="stylesheet" />
+                <script src="https://api.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js"></script>
+
+                <!-- OSM buildings-->
+                <link href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" rel="stylesheet" />
+                <script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+                <script src="https://cdn.osmbuildings.org/classic/0.2.2b/OSMBuildings-Leaflet.js"></script>
+
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+
+                <!-- Location -->
+
+
+                <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.78.0/dist/L.Control.Locate.min.css" />
+                <!--Routing-->
+                <link href="//unpkg.com/leaflet@1.8.0/dist/leaflet.css" rel="stylesheet">
+                <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+                <link rel="stylesheet" href="css/styles.css">
+                <link rel="stylesheet" href="css/leaflet-measure.css">
+                <link rel="stylesheet" href="leaflet-routing-machine.css">
+                <link href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" rel="stylesheet" />
+                <script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
+
+
+                <style>
+                    html, body {
+                        height: 100%;
+                        margin: 0;
+                    }
+
+                    .leaflet-container {
+                        height: 400px;
+                        width: 600px;
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+
+                    .info {
+                        padding: 6px 8px;
+                        font: 14px/16px Arial, Helvetica, sans-serif;
+                        background: white;
+                        background: rgba(255, 255, 255, 0.8);
+                        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+                        border-radius: 5px;
+                    }
+
+                        .info h4 {
+                            margin: 0 0 5px;
+                            color: #777;
+                        }
+                </style>
+
+
+            </head>
+            <body>
+
+                <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+                <script src="Gare_maroc.geojson" type="text/javascript"></script>
+                <script src="cheminfr.geojson" type="text/javascript"></script>
+                <script src="decoupage.geojson" type="text/javascript"></script>
+                <script src="region.geojson" type="text/javascript"></script>
+                <script src="ligne.geojson" type="text/javascript"></script>
+                <script src="region.geojson" type="text/javascript"></script>
+                <script src="moisa.geojson" type="text/javascript"></script>
+                <script src="moisb.geojson" type="text/javascript"></script>
+                <script src="moisc.geojson" type="text/javascript"></script>
+
+                <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+                <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.78.0/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+                <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+                <script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
+                <div id="map" style="width: 1900px; height: 800px;"></div>
+
+                <script>
+
+                    //var map = L.map('map').setView([29.1887978572122, -9.119821863073248], 5);
+
+                    //const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    //maxZoom: 19,
+                    //attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                    //}).addTo(map);
+
+
+
+
+                    /// Basemaps variables
+
+
+
+                    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 20,
+                        attribution: '<div class="attribution"> © OpenStreetMap </div>'
+                    });
+
+
+                    var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                        maxZoom: 20,
+                        attribution: '<div class="attribution">Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community</div>'
+                    });
+
+                    var baseMaps = {
+
+                        'OpenStreetMap': osm,
+                        'satellite': satellite,
+                    };
+
+                    var map = L.map('map', {
+                        center: [33.9764579629765, -6.866932565184981],
+                        zoom: 7,
+                        layers: osm
+                    });
+
+                    //trajet
+
+                    map.on('click', function (e) {
+                        var gotolat = e.latlng.lat
+                        var gotolng = e.latlng.lng
+                        map.locate().on("locationfound", (i) => {
+                            console.log(i.latlng)
+                            L.Routing.control({
+                                waypoints: [
+                                    L.latLng(i.latlng.lat, i.latlng.lng),
+                                    L.latLng(gotolat, gotolng)
+                                ]
+                            }).addTo(map)
+                        })
+                    });
+
+                    //Search places
+                    L.Control.geocoder().addTo(map);
+                    //scale
+                    L.control.scale().addTo(map);
+                    //location
+                    L.control.locate().addTo(map);
+
+
+                    //images from geoJSON
+
+                    var gare = L.geoJSON(gare).bindPopup(function (layer) {
+                        return (" <center> <img src='assets/imgs/" + layer.feature.properties.Image + "' style='width:200px;height:300x;border:2px solid #000000;'></center>" +
+                            + "<br>" + layer.feature.properties.Gare + "<br>" + layer.feature.properties.description)
+                    });
+
+                    //tarif pour 1mois
+
+                    var tarifa = L.geoJSON(moisa).bindPopup(function (layer) {
+                        return (" <center> <img src='assets/imgs/" + layer.feature.properties.Image + "' style='width:200px;height:300x;border:2px solid #000000;'></center>" +
+                            + "<br>" + layer.feature.properties.Gare + "<br>" + layer.feature.properties.moisa)
+                    });
+
+                    //tarif pour 3mois
+
+                    var tarifb = L.geoJSON(moisb).bindPopup(function (layer) {
+                        return (" <center> <img src='assets/imgs/" + layer.feature.properties.Image + "' style='width:200px;height:300x;border:2px solid #000000;'></center>" +
+                            + "<br>" + layer.feature.properties.Gare + "<br>" + layer.feature.properties.moisb)
+                    });
+
+                    //tarif pour 6mois
+
+                    var tarifc = L.geoJSON(moisc).bindPopup(function (layer) {
+                        return (" <center> <img src='assets/imgs/" + layer.feature.properties.Image + "' style='width:200px;height:300x;border:2px solid #000000;'></center>" +
+                            + "<br>" + layer.feature.properties.Gare + "<br>" + layer.feature.properties.moisc)
+                    });
+
+
+
+
+                    // Layers
+
+                    var cheminfr = L.geoJSON(cheminfr);
+                    var ligne = L.geoJSON(ligne);
+
+                    //Carte coroplète
+
+                    function getColor(d) {
+                        return d == 0 ? '#FFCCCC' :
+                            d >= 0 && d < 0.05 ? '#CC6666' :
+                                d >= 0.05 && d < 0.07 ? '#993333' :
+                                    d >= 0.07 && d < 0.15 ? '#660000' :
+                                        d >= 0.15 && d < 0.30 ? '#330000' :
+                                            '';
+                    }
+
+                    function style(feature) {
+                        return {
+                            weight: 2,
+                            opacity: 1,
+                            color: "white",
+                            dashArray: "3",
+                            fillOpacity: 0.9,
+                            fillColor: getColor(feature.properties.Gare_region_pourcentage)
+                        };
+                    }
+
+                    var geojson = L.geoJson(region, {
+                        style: style,
+                        onEachFeature: onEachFeature
+                    });
+
+                    function highlightFeature(e) {
+                        var layer = e.target;
+
+                        layer.setStyle({
+                            weight: 5,
+                            color: "#666",
+                            dashArray: "",
+                            fillOpacity: 0.7
+                        });
+
+                        //  if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                        layer.bringToFront();
+                        // }
+
+                        info.update(layer.feature.properties);
+                    }
+
+                    function zoomToFeature(e) {
+                        map.fitBounds(e.target.getBounds());
+                    }
+
+
+
+
+                    function resetHighlight(e) {
+                        geojson.resetStyle(e.target);
+                        info.update();
+                    }
+
+
+                    function onEachFeature(feature, layer) {
+                        layer.on({
+                            mouseover: highlightFeature,
+                            mouseout: resetHighlight,
+                            click: zoomToFeature
+                        });
+                    }
+
+                    var info = L.control();
+
+                    info.onAdd = function (map) {
+                        this._div = L.DomUtil.create("div", "info");
+                        this.update();
+                        return this._div;
+                    };
+
+                    // method that we will use to update the control based on feature properties passed
+                    info.update = function (props) {
+                        this._div.innerHTML =
+                            "<h4>Pourcentage des gares par région </h4>" + (props ?
+                                "</b><br />" + props.Gare_region_Region + "</b><br />" + props.Gare_region_Nb_des_gares + " gares représentant un pourcentage de " + props.Gare_region_pourcentage * 100 + "%"
+                                : "Survoler une région");
+                    };
+
+                    info.addTo(map);
+
+
+                    var building = L.layerGroup();
+                    var B3D = L.tileLayer('https://api.mapbox.com/styles/v1/osmbuildings/cjt9gq35s09051fo7urho3m0f/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoib3NtYnVpbGRpbmdzIiwiYSI6IjNldU0tNDAifQ.c5EU_3V8b87xO24tuWil0w', {
+                        attribution: '© <a href="https://mapbox.com">Mapbox</a>',
+                        maxZoom: 60,
+                    }).addTo(building);
+                    var osmb = new OSMBuildings(building).load('http://{s}.data.osmbuildings.org/0.2/anonymous/tile/{z}/{x}/{y}.json');
+
+                    var Styly = {
+                        "color": "Grey",
+                        "opacity": 1,
+                        "weight": 1,
+                        "fillColor": "White"
+                    };
+
+
+
+
+
+                    bouga = {
+                        "3D": building,
+                        "gare": gare,
+                        "chemin de fer": cheminfr,
+                        "Pourcentage des gares par région": geojson,
+                        "ligne de la navette": ligne,
+                        "tarif pour un abonnement de 1mois": tarifa,
+                        "tarif pour un abonnement de 3mois": tarifb,
+                        "tarif pour un abonnement de 6mois": tarifc
+
+
+                    };
+
+                    var layerControl = L.control.layers(baseMaps, bouga).addTo(map);
+
+
+
+
+
+
+
+                </script>
+
+            </body>
+        </html>
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- End OF Carte -->
+<!-- A propos de nous Section -->
+<section class="section" id="testmonial">
+    <div class="container">
+        <h6 class="section-title text-center mb-0">Ce Géoportail est réalisé par :</h6>
+        <div class="row">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="media align-items-center mb-3">
+                            <img class="mr-3" src="assets/imgs/hutssa.jpg" alt="">
+                            <div class="media-body">
+                                <h6 class="mt-1 mb-0">HARMOUCH Houda</h6>
+
+                            </div>
+                        </div>
+                        <p class="mb-0">Etudiante en 3ème année cycle Ingénieur en Sciences Géomatiques et Ingénierie Topographique</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="media align-items-center mb-3">
+                            <img class="mr-3" src="assets/imgs/profile1.png" alt="">
+                            <div class="media-body">
+                                <h6 class="mt-1 mb-0">EZZAHRI Abdelkhalek</h6>
+
+                            </div>
+                        </div>
+                        <p class="mb-0">Etudiant en 3ème année cycle Ingénieur en Sciences Géomatiques et Ingénierie Topographique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of A propos de nous Section -->
+<!-- Contact Section -->
+<section id="contact" class="section has-img-bg pb-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-5 my-3">
+                <h6 class="mb-0">Phone</h6>
+                <p class="mb-4">+212653824126</p>
+                <p class="mb-4">+212661886342</p>
+
+                <h6 class="mb-0">Address</h6>
+                <p class="mb-4">IAV HASSAN II</p>
+
+                <h6 class="mb-0">Email</h6>
+                <p class="mb-0">Ezzahriabdelkhalek@iav.ac.ma</p>
+                <p class="mb-0">Harmouchhouda@iav.ac.ma</p>
+                <p></p>
+            </div>
+            <div class="col-md-7">
+                <form>
+                    <h4 class="mb-4">Contactez nous</h4>
+                    <div class="form-row">
+                        <div class="form-group col-sm-4">
+                            <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group col-12">
+                            <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+
+                        </div>
+                        <div class="form-group col-12 mb-0">
+                            <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- core  -->
+<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+<!-- bootstrap 3 affix -->
+<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+<!-- Isotope -->
+<script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+
+
+</body>
+</html>
